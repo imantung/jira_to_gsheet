@@ -3,7 +3,11 @@ module github.com/imantung/jira_to_gsheet
 go 1.17
 
 require (
-	github.com/andygrunwald/go-jira v1.15.1 // indirect
+	github.com/andygrunwald/go-jira v1.15.1
+	github.com/kelseyhightower/envconfig v1.4.0
+)
+
+require (
 	github.com/fatih/structs v1.1.0 // indirect
 	github.com/golang-jwt/jwt/v4 v4.3.0 // indirect
 	github.com/google/go-querystring v1.1.0 // indirect
